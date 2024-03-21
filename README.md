@@ -2,7 +2,7 @@
 ME793 Course Project for Spring 2k24 classifying defective material images and generating a small description of the defective images.
 
 ## Dataset
-The dataset.zip file consists of the entire dataset. The dataset has been adopted from two sources, Crack Defects (crack) and Kolektor Surface Defect Detection 2 (ksdd), detailed below.
+The dataset.zip file (consisting of the entire dataset) can be downloaded at https://tinyurl.com/42nzb2pz (~ 1.1 GB of disk space) . <br>This dataset has been adopted from two sources, Crack Defects (crack) and Kolektor Surface Defect Detection 2 (ksdd), detailed below.
 ### Directory Layout
     .
     ├── crack_defective
