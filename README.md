@@ -1,6 +1,9 @@
 # MatML: A MultiModal LLM for defect classification and defect description[![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&logo=Jupyter)](https://jupyterlab.readthedocs.io/en/stable)
 ME793 Course Project for Spring 2k24 classifying defective material images and generating a small description of the defective images.
 
+## Embedding Analysis & Contrastive Learning
+You can follow the notebook SimCLR.ipynb to perform Contrastive Learning on ResNet18. https://drive.google.com/file/d/1mbQrZhF2jjrW_ptk6Bc2n-V8-Qx7d2xP/view?usp=sharing provides the link to the colab notebook
+
 ## Dataset
 The dataset.zip file (consisting of the entire dataset) can be downloaded at https://tinyurl.com/42nzb2pz (~ 1.1 GB of disk space) . <br>This dataset has been adopted from two sources, Crack Defects (crack) and Kolektor Surface Defect Detection 2 (ksdd), detailed below.
 ### Directory Layout
