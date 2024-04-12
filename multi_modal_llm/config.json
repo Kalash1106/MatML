@@ -3,6 +3,6 @@
     "dataset" : "llm_dataset/gemini.csv",
     "prompt" : "Question: Describe the material defect in this image. Include details, causes and effects. Answer: ",
     "batch_size" : 32,
-    "num_workers" : 2,
+    "num_workers" : 0,
     "lr" : 1e-4
 }
