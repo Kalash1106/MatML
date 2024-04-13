@@ -1,5 +1,8 @@
 ## About
 This directory consists of the codes used to finetune the BLIP2 model on our custom dataset.
+- The file <i>blip2_finetune.ipynb</i> consists of the code to finetune the QFormer segment of BLIP2 while keeping the pre-trained Image Encoder (ViT) and Language Model (OPT2.7b) frozenwas run for <b>30</b> epochs using Nvidia P100 GPU for 30 epochs provided by Kaggle.
+- The file <i>blip2_datalaoder.py </i> gives the code for creating the dataset and the dataloaders for the finetuning process.
+- <i>config.json</i> is used to store the required parameters. 
 
 ## Dataset
 The dataset can be downloaded at https://drive.google.com/file/d/1AXPBRVzaeFceIoF3XZx9C7UvP5zLWF8r/view?usp=drive_link. It is ~ 52 MB in size and is organised as follows:
