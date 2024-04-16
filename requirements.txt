@@ -1,0 +1,11 @@
+anthropic
+google-generativeai
+db-sqlite3
+torch
+transformers
+numpy
+gradio
+torchvision
+scikit-learn
+accelerate
+pandas
