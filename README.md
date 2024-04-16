@@ -5,7 +5,22 @@
 - The folder [EDA_Embeddings](https://github.com/Kalash1106/MatML/tree/main/EDA_Embeddings) consists of all the files for Exploratory Data Analysis. It also contains all the codes for embedding analysis and contrastive learning.
 - The folder [defect_detection](https://github.com/Kalash1106/MatML/tree/main/defect_detection) consists of all the codes for training the ResNet34 model for (binary) defect detection.
 - The folder [multi_modal_llm](https://github.com/Kalash1106/MatML/tree/main/multi_modal_llm) consists of all the codes for finetuning the BLIP2 model to adapt it for defect description generation.
+- The folder [Testing images](https://github.com/Kalash1106/MatML/tree/main/Testing%20images) consists of all the images for evaluating the model
 - The file [main_demo.ipynb](https://github.com/Kalash1106/MatML/tree/main/main_demo.ipynb) is the code for demonstration hosted via gradio.
+
+
+## Setup
+First clone the repository and install the necessary libraries using the requirements file.
+```sh
+python3 -m venv .venv
+git clone --recursive https://github.com/Kalash1106/MatML.git
+pip install -r requirements.txt
+```
+
+## Running the Demo file
+1. Download the weights of the trained ResNet34 model from https://drive.google.com/file/d/1cmWYZJUlDnoH4rScLoO4rJKw-JIhVgGb/view?usp=drive_link.
+2. Generate your Google AI API key following the instructions given at https://aistudio.google.com/app/apikey.
+3. Enter the correct path and the api key at the relevant locations in the <i> main_demo.ipynb </i> notebook and execute all the cells.
 
 
 ## Dataset
