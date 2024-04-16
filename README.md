@@ -1,8 +1,12 @@
-# MatML: A MultiModal LLM for defect classification and defect description[![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&logo=Jupyter)](https://jupyterlab.readthedocs.io/en/stable)
-ME793 Course Project for Spring 2k24 classifying defective material images and generating a small description of the defective images.
+# MatML: A MultiModal LLM for defect classification and defect description[![python](https://img.shields.io/badge/Python-3.9-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&logo=Jupyter)](https://jupyterlab.readthedocs.io/en/stable) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+<b>ME793 (Multiscale Materials Informatics, Discovery and Design) </b> Course Project under <a href="https://www.me.iitb.ac.in/?q=faculty/Prof.%20Alankar%20Alankar">Prof. Alankar</a> for Spring 2k24. The objective of the project is to classify defective material images and generate a technical description of the defective images using existing Large Language Models.
 
-## Embedding Analysis & Contrastive Learning
-You can follow the notebook SimCLR.ipynb to perform Contrastive Learning on ResNet18. https://drive.google.com/file/d/1mbQrZhF2jjrW_ptk6Bc2n-V8-Qx7d2xP/view?usp=sharing provides the link to the colab notebook
+## Repo Structure & Walkthrough
+- The folder [EDA_Embeddings](https://github.com/Kalash1106/MatML/tree/main/EDA_Embeddings) consists of all the files for Exploratory Data Analysis. It also contains all the codes for embedding analysis and contrastive learning.
+- The folder [defect_detection](https://github.com/Kalash1106/MatML/tree/main/defect_detection) consists of all the codes for training the ResNet34 model for (binary) defect detection.
+- The folder [multi_modal_llm](https://github.com/Kalash1106/MatML/tree/main/multi_modal_llm) consists of all the codes for finetuning the BLIP2 model to adapt it for defect description generation.
+- The file [main_demo.ipynb](https://github.com/Kalash1106/MatML/tree/main/main_demo.ipynb) is the code for demonstration hosted via gradio.
+
 
 ## Dataset
 The dataset.zip file (consisting of the entire dataset) can be downloaded at https://tinyurl.com/42nzb2pz (~ 1.1 GB of disk space) . <br>This dataset has been adopted from two sources, Crack Defects (crack) and Kolektor Surface Defect Detection 2 (ksdd), detailed below.
