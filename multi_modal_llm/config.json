@@ -4,5 +4,5 @@
     "prompt" : "Question: Provide a technical analysis of the material defect shown in the image, including the type of defect and its potential causes. Answer: ",
     "batch_size" : 8,
     "num_workers" : 2,
-    "lr" : 1e-4
+    "lr" : 5e-4
 }
