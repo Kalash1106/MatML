@@ -1,1 +1,3 @@
-
+- upload the zip files named Defective.zip and Non_Defective.zip to your google drive and run the code for training the ResNet34 model
+- use T4 GPU in google colab for training the model
+- upload the folder named testing_images to your google drive for evaluating the model on testing dataset
