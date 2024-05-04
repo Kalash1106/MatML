@@ -127,7 +127,7 @@ def main():
         conn.commit()
 
         print("sleeping for 12 s")
-        time.sleep(12)
+        time.sleep(12) # so that we don't hit the API rate limits
 
     conn.close()
 
